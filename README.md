@@ -79,4 +79,24 @@ To create and configure your bot:
 
 ---
 
-You are now ready to run your bot and begin using it for your Active Developer Badge journey!
+## Getting the Badge
+
+### Requirements
+
+To be eligible for the Active Developer Badge:
+
+- The bot must be in a **Community Server**.
+- The server must have **Community features enabled**.
+- You must run at least **one slash command**.
+- Wait **24 hours** after running the command.
+
+### Claiming the Badge
+
+1. Wait **24 hours** after using the command.
+2. Visit the **Active Developer Page**.
+3. Click **Claim Badge**.
+4. The badge should appear on your profile.
+
+---
+
+You are now ready to run your bot and begin using it for your Active Developer Badge!
