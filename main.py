@@ -21,8 +21,8 @@ async def badges(interaction: discord.Interaction):
     timestamp = datetime.now().strftime("%B %d, %Y")
     
     embed = discord.Embed(
-        title="Command run successfully",
-        description="Successfully run the command, now you must wait to get the Active Developer Badge.",
+        title="Discord Active Developer Badges",
+        description="",
         color=discord.Color.dark_grey()
     )
     embed.add_field(
