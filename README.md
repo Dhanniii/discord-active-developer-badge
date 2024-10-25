@@ -1,67 +1,82 @@
-- Discord Active Developer Badge Bot - Setup Guide
-- Before starting, make sure you have:
+# Discord Active Developer Badge Bot - Setup Guide
 
- - Python 3.8 or newer installed
-- A Discord account
-- A Discord server with Community features enabled
-- A text editor (VS Code recommended)
+A step-by-step guide to setting up your Discord bot for earning the Active Developer Badge.
 
-- Discord Server Setup
+---
 
-* Enable Community Features:
+## Prerequisites
 
-* Go to your Discord server
-* Click Server Settings > Enable Community
-* Follow the setup steps:
+Before starting, make sure you have:
 
-* Enable verification level
-* Enable explicit media content filter
-* Create rules and community updates channels
+- **Python**: Version 3.8 or newer installed
+- **Discord Account**: A registered Discord account
+- **Discord Server**: A server with Community features enabled
+- **Text Editor**: (VS Code recommended)
 
-* Server Requirements:
-* Server must be a Community server
-* You need to have "Manage Server" permissions
-* Server must have rules and community updates channels
+---
 
- - Bot Creation
-* Create Application:
-* Visit Discord Developer Portal
-* Click "New Application"
-* Name your application
-* Save the changes
+## Discord Server Setup
 
-- Configure Bot Settings:
-* Go to "Bot" section
-* Click "Add Bot"
-* Bot settings to enable:
+To prepare your server:
 
-✅ Presence Intent
-✅ Server Members Intent
-✅ Message Content Intent
+### 1. Enable Community Features
 
-* Reset Token and save it securely
-* Under "Bot Permissions":
+1. Open **Server Settings** in your Discord server.
+2. Click on **Enable Community** and follow the setup steps:
+   - Enable **Verification Level**
+   - Enable **Explicit Media Content Filter**
+   - Create **Rules** and **Community Updates** channels
 
-✅ Send Messages
-✅ Embed Links
-✅ Use Slash Commands
+### 2. Server Requirements
 
-* Create Invite Link:
-* Go to OAuth2 > URL Generator
-* Select scopes:
+- The server must be a **Community Server**.
+- You must have **Manage Server** permissions.
+- Rules and community updates channels are required.
 
-* bot
-* applications.commands
+---
 
-- Select permissions:
-* Send Messages
-* Embed Links
-* Use Slash Commands
+## Bot Creation
 
-* Copy the generated URL
+To create and configure your bot:
 
-- Invite Bot:
-* Open the generated URL in a new tab
-* Select your server
-* Click "Authorize"
-* Complete the captcha
+### 1. Create a Discord Application
+
+1. Visit the [Discord Developer Portal](https://discord.com/developers/applications).
+2. Click on **New Application**.
+3. Give your application a name and save the changes.
+
+### 2. Configure Bot Settings
+
+1. In your application, go to the **Bot** section.
+2. Click **Add Bot** to create a bot user for your application.
+3. Enable the following bot settings:
+   - ✅ **Presence Intent**
+   - ✅ **Server Members Intent**
+   - ✅ **Message Content Intent**
+4. **Reset the Token** and save it securely.
+5. Under **Bot Permissions**, enable:
+   - ✅ **Send Messages**
+   - ✅ **Embed Links**
+   - ✅ **Use Slash Commands**
+
+### 3. Create an Invite Link
+
+1. Go to **OAuth2** > **URL Generator**.
+2. Select the following scopes:
+   - `bot`
+   - `applications.commands`
+3. Under **Permissions**, select:
+   - ✅ **Send Messages**
+   - ✅ **Embed Links**
+   - ✅ **Use Slash Commands**
+4. Copy the generated invite link.
+
+### 4. Invite the Bot to Your Server
+
+1. Open the invite link in a new browser tab.
+2. Select the server you wish to add the bot to.
+3. Click **Authorize** and complete the captcha.
+
+---
+
+You are now ready to run your bot and begin using it for your Active Developer Badge journey!
