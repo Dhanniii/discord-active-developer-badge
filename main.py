@@ -26,7 +26,7 @@ async def badges(interaction: discord.Interaction):
         color=discord.Color.dark_grey()
     )
     embed.add_field(
-        name="",
+        name="🤓🤓🤓🤓🤓🤓🤓🤓🤓",
         value="Congratulations! The command has been successfully executed. To receive your Active Developer Badge, please click the claim link below. Please note that (it may take up to 24 hours for Discord to verify your eligibility and process your badge request) https://discord.com/developers/active-developer",
         inline=False
     )
